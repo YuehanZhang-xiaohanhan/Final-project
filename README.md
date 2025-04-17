@@ -129,8 +129,13 @@ This project archive was split into multiple parts due to file size limitations 
 
 ### Files Provided
 
+  Frontend:
 - `hospital_frontend_part_1.zip`
 - `hospital_frontend_part_2.zip`
+
+  Backend:
+- `hospital_backend_part_1.zip`
+- `hospital_backend_part_2.zip`
 
 ### How to Restore the Original File
 
@@ -140,6 +145,11 @@ To restore and extract the original project archive:
 2. Open Terminal (macOS/Linux) or Git Bash (Windows).
 3. Run the following commands:
 
-```bash
+For Frontend:
 cat hospital_frontend_part_*.zip > hospital_frontend_full.zip
 unzip hospital_frontend_full.zip
+
+
+For Backend:
+cat hospital_backend_part_*.zip > hospital_backend_full.zip
+unzip hospital_backend_full.zip
