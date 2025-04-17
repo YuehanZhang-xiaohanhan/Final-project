@@ -115,3 +115,31 @@ The system has been thoroughly tested to ensure functionality, stability, and pe
 Testing ensures the system is production-ready and provides a foundation for future enhancements.
 
 ---
+
+## 8. Zip document
+## Project Archive Split Notice
+
+This project archive was split into multiple parts due to file size limitations when uploading to the Git platform (limited to 25MB per file). The original compressed file exceeds this limit, so it has been divided into smaller chunks for easier upload and download.
+
+### Why was the file split?
+
+- The original file `hospital_frontend.zip` is approximately 46MB.
+- The Git hosting platform used in this project restricts file uploads to 25MB.
+- To comply with this limitation, the archive was split into two 23MB parts.
+
+### Files Provided
+
+- `hospital_frontend_part_1.zip`
+- `hospital_frontend_part_2.zip`
+
+### How to Restore the Original File
+
+To restore and extract the original project archive:
+
+1. Download both parts and place them in the same folder.
+2. Open Terminal (macOS/Linux) or Git Bash (Windows).
+3. Run the following commands:
+
+```bash
+cat hospital_frontend_part_*.zip > hospital_frontend_full.zip
+unzip hospital_frontend_full.zip
